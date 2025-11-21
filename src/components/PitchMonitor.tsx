@@ -1,59 +1,35 @@
-import React, { useRef, useState, useEffect } from "react";
-import referenceNotes from "../data/midiganzoesgei.mid_extracted.json";
-import { usePitchDetector } from "../hooks/usePitchTest";
+{/*Monitoriza el pitch de la canción y muestra si está cerca o lejos de la nota esperada*/}
 
-function KaraokePitchComparer({ audioUrl }: { audioUrl: string }) {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
+import { useEffect, useState } from "react";
 
-  const [listening, setListening] = useState(false);
-  const { pitch, clarity } = usePitchDetector(listening);
+type Note = { note: number; freq_hz: number; start: number; end: number; duration: number };
 
-  const [currentTime, setCurrentTime] = useState(0);
+interface PitchMonitorProps {
+  pitch: number;
+  currentTime: number;
+  notes: Note[];
+  playing: boolean;
+}
+
+export default function PitchMonitor({
+  pitch,
+  currentTime,
+  notes,
+  playing,
+}: PitchMonitorProps) {
   const [expectedPitch, setExpectedPitch] = useState(0);
   const [diff, setDiff] = useState(0);
   const [isClose, setIsClose] = useState(false);
 
-  const start = () => {
-    if (!audioRef.current) return;
-
-    audioRef.current.currentTime = 0;
-    audioRef.current.play();
-    setListening(true);
-  };
-
-  const stop = () => {
-    setListening(false);
-    if (audioRef.current) audioRef.current.pause();
-
-    setCurrentTime(0);
-    setExpectedPitch(0);
-    setDiff(0);
-    setIsClose(false);
-  };
-
-  // Update time from audio element
   useEffect(() => {
-    const audio = audioRef.current;
-    if (!audio) return;
-
-    const handleTimeUpdate = () => {
-      setCurrentTime(audio.currentTime);
-    };
-
-    audio.addEventListener("timeupdate", handleTimeUpdate);
-    return () => audio.removeEventListener("timeupdate", handleTimeUpdate);
-  }, []);
-
-  // Compare pitch with expected note
-  useEffect(() => {
-    if (!listening || pitch === 0) {
+    if (!playing || pitch === 0) {
       setExpectedPitch(0);
       setDiff(0);
       setIsClose(false);
       return;
     }
 
-    const note = referenceNotes.notes.find(
+    const note = notes.find(
       (n) => currentTime >= n.start && currentTime < n.start + n.duration
     );
 
@@ -67,49 +43,25 @@ function KaraokePitchComparer({ audioUrl }: { audioUrl: string }) {
       setDiff(0);
       setIsClose(false);
     }
-  }, [currentTime, pitch, listening]);
+  }, [currentTime, pitch, playing, notes]);
 
   return (
-    <div style={{ padding: "10px", fontFamily: "sans-serif" }}>
-      <audio ref={audioRef} src={audioUrl} />
-
-      <button onClick={start}>▶️ Empezar</button>
-      <button onClick={stop}>⏹️ Detener</button>
-
-      <hr />
-
-      <div>
-        <b>Tiempo:</b> {currentTime.toFixed(2)}s
-      </div>
-      <div>
-        <b>Pitch actual:</b> {pitch.toFixed(1)} Hz
-      </div>
-      <div>
-        <b>Pitch esperado:</b> {expectedPitch.toFixed(1)} Hz
-      </div>
-      <div>
-        <b>Diferencia:</b> {diff.toFixed(1)} Hz
-      </div>
-      <div>
-        <b>Claridad:</b> {(clarity * 100).toFixed(0)}%
-      </div>
-
+    <div className="mb-4">
       <div
-        style={{
-          marginTop: "10px",
-          padding: "10px",
-          background: isClose ? "#54d161" : "#d15454",
-          color: "white",
-          borderRadius: "8px",
-          width: "120px",
-          textAlign: "center",
-          fontWeight: "bold",
-        }}
+        className={`px-4 py-2 rounded-md text-center font-bold min-w-[200px] inline-block ${
+          !playing || expectedPitch === 0
+            ? "bg-gray-600 text-white"
+            : isClose
+            ? "bg-green-600 text-white"
+            : "bg-red-600 text-white"
+        }`}
       >
-        {isClose ? "Cerca ✔️" : "Lejos ✖️"}
+        {!playing || expectedPitch === 0
+          ? "Esperando..."
+          : isClose
+          ? `Cerca ✔️ (Diferencia: ${diff.toFixed(1)} Hz)`
+          : `Lejos ✖️ (Diferencia: ${diff.toFixed(1)} Hz)`}
       </div>
     </div>
   );
 }
-
-export default KaraokePitchComparer;
