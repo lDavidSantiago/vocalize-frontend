@@ -1,20 +1,38 @@
-{/*Página de Partida de Karaoke*/}
 
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { usePitchDetector } from "../hooks/usePitchTest";
 import MidiVisualizer from "../components/MidiVisualizer";
 import PitchMonitor from "../components/PitchMonitor";
 import SongPlayer from "../components/SongPlayer";
-import notesJson from "../data/miditufaltadequerer.mid_extracted.json";
+
+
+import notesJson1 from "../data/miditufaltadequerer.mid_extracted.json";
+import notesJson2 from "../data/midiganzoesgei.mid_extracted.json";
 import audioFile from "../assets/karaoke_moon.mp3";
+import audioFile2 from "../assets/el_violador.mp3";
+
+const albumMap: Record<string, { audioFile: string; jsonFile: any }> = {
+  "1": { audioFile: audioFile, jsonFile: notesJson1 },
+  "2": { audioFile: audioFile2, jsonFile: notesJson2 },
+  "3": { audioFile: audioFile, jsonFile: notesJson1 },
+  "4": { audioFile: audioFile, jsonFile: notesJson2 },
+  "5": { audioFile: audioFile, jsonFile: notesJson1 },
+  "6": { audioFile: audioFile, jsonFile: notesJson2 },
+  "7": { audioFile: audioFile, jsonFile: notesJson1 },
+  "8": { audioFile: audioFile, jsonFile: notesJson2 },
+};
 
 export default function KaraokePage() {
+  const [searchParams] = useSearchParams();
+  const albumId = searchParams.get("albumId") || "1";
   const [playing, setPlaying] = useState(false);
   const [time, setTime] = useState(0);
   const [expectedPitch, setExpectedPitch] = useState(0);
   const { pitch, clarity } = usePitchDetector(playing);
 
-  const notes = notesJson.notes as Array<{ note: number; freq_hz: number; start: number; end: number; duration: number }>;
+  const selectedAlbum = albumMap[albumId] || albumMap["1"];
+  const notes = selectedAlbum.jsonFile.notes as Array<{ note: number; freq_hz: number; start: number; end: number; duration: number }>;
 
   useEffect(() => {
     if (!playing || pitch === 0) {
@@ -37,7 +55,7 @@ export default function KaraokePage() {
     <div className="w-full min-h-screen bg-[#0f0f15] text-white font-sans flex items-center justify-center">
       <div className="w-full max-w-[1100px] p-5">
         <SongPlayer
-          src={audioFile}
+          src={selectedAlbum.audioFile}
           onTimeChange={setTime}
           onPlayingChange={setPlaying}
         />

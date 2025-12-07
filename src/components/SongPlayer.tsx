@@ -1,4 +1,3 @@
-{/*Reproduce la canción y muestra el tiempo actual*/}
 
 import { useEffect, useRef, useState } from "react";
 
