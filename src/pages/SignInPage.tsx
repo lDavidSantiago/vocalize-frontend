@@ -12,7 +12,7 @@ function SignInPage() {
         <Navigate to="/home" replace />
       </SignedIn>
       <SignedOut>
-        <main className="relative min-h-screen flex flex-col items-center justify-center bg-[#0f0f15] text-white p-6">
+        <main className="relative min-h-screen flex flex-col items-center justify-center bg-[#0f0f15] text-white p-6 pt-24">
           {/*Título*/}
           <div className="relative flex items-center justify-center w-full max-w-md mb-8">
             {/* Elemento visual circulo */}
