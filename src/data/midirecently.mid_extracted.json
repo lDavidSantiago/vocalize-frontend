@@ -1,0 +1,2328 @@
+{
+  "file": "recently.mid",
+  "track_index": 0,
+  "track_name": "Voice\u0000",
+  "ticks_per_beat": 480,
+  "tempo": 800000,
+  "bpm": 75.0,
+  "total_notes": 331,
+  "notes": [
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 1.6,
+      "end": 2.1317,
+      "duration": 0.5317
+    },
+    {
+      "note": 76,
+      "freq_hz": 659.26,
+      "start": 2.1333,
+      "end": 2.665,
+      "duration": 0.5317
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 2.6667,
+      "end": 3.1983,
+      "duration": 0.5317
+    },
+    {
+      "note": 74,
+      "freq_hz": 587.33,
+      "start": 3.2,
+      "end": 6.3983,
+      "duration": 3.1983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 11.2,
+      "end": 11.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 11.6,
+      "end": 11.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 12.0,
+      "end": 12.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 12.4,
+      "end": 12.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 13.6,
+      "end": 14.3983,
+      "duration": 0.7983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 17.6,
+      "end": 17.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 18.0,
+      "end": 18.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 18.4,
+      "end": 18.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 18.8,
+      "end": 19.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 20.0,
+      "end": 20.7983,
+      "duration": 0.7983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 22.0,
+      "end": 23.1983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 30.4,
+      "end": 31.1983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 31.2,
+      "end": 32.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 32.8,
+      "end": 34.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 36.4,
+      "end": 36.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 36.8,
+      "end": 37.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 37.2,
+      "end": 37.2,
+      "duration": 0.0
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 37.2,
+      "end": 37.2,
+      "duration": 0.0
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 37.6,
+      "end": 37.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 38.0,
+      "end": 38.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 38.0,
+      "end": 39.1983,
+      "duration": 1.1983
+    },
+    {
+      "note": 55,
+      "freq_hz": 196.0,
+      "start": 38.4,
+      "end": 39.1983,
+      "duration": 0.7983
+    },
+    {
+      "note": 55,
+      "freq_hz": 196.0,
+      "start": 40.0,
+      "end": 40.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 40.4,
+      "end": 40.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 41.2,
+      "end": 42.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 42.8,
+      "end": 43.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 43.2,
+      "end": 43.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 43.6,
+      "end": 44.7983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 49.6,
+      "end": 50.3983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 50.4,
+      "end": 51.9983,
+      "duration": 1.5983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 52.0,
+      "end": 53.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 56.0,
+      "end": 56.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 56.4,
+      "end": 56.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 57.2,
+      "end": 59.1983,
+      "duration": 1.9983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 59.2,
+      "end": 59.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 59.6,
+      "end": 59.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 60.4,
+      "end": 61.9983,
+      "duration": 1.5983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 62.0,
+      "end": 62.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 62.4,
+      "end": 62.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 62.8,
+      "end": 63.5983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 63.6,
+      "end": 63.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 64.0,
+      "end": 64.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 64.4,
+      "end": 64.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 64.8,
+      "end": 66.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 67.2,
+      "end": 67.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 67.6,
+      "end": 67.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 68.0,
+      "end": 68.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 68.4,
+      "end": 68.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 68.8,
+      "end": 69.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 69.2,
+      "end": 69.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 69.6,
+      "end": 69.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 70.0,
+      "end": 70.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 70.4,
+      "end": 70.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 70.8,
+      "end": 71.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 71.2,
+      "end": 72.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 73.6,
+      "end": 73.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 74.0,
+      "end": 74.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 74.4,
+      "end": 74.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 74.8,
+      "end": 75.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 75.2,
+      "end": 75.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 75.6,
+      "end": 75.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 76.0,
+      "end": 76.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 76.4,
+      "end": 76.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 76.8,
+      "end": 77.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 77.2,
+      "end": 77.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 77.6,
+      "end": 78.7983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 78.8,
+      "end": 79.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 79.2,
+      "end": 79.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 79.6,
+      "end": 79.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 80.0,
+      "end": 80.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 80.4,
+      "end": 80.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 80.8,
+      "end": 82.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 82.8,
+      "end": 83.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 83.2,
+      "end": 83.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 83.6,
+      "end": 83.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 84.0,
+      "end": 85.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 86.0,
+      "end": 86.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 86.4,
+      "end": 86.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 86.8,
+      "end": 87.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 87.2,
+      "end": 87.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 87.6,
+      "end": 87.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 88.0,
+      "end": 88.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 88.4,
+      "end": 88.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 88.8,
+      "end": 89.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 89.2,
+      "end": 89.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 89.6,
+      "end": 89.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 90.0,
+      "end": 90.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 90.4,
+      "end": 91.9983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 92.8,
+      "end": 93.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 93.2,
+      "end": 93.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 93.6,
+      "end": 93.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 94.0,
+      "end": 94.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 94.4,
+      "end": 94.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 94.8,
+      "end": 95.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 95.2,
+      "end": 95.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 95.6,
+      "end": 95.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 96.0,
+      "end": 96.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 96.4,
+      "end": 96.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 96.8,
+      "end": 97.9983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 98.4,
+      "end": 98.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 98.8,
+      "end": 99.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 99.2,
+      "end": 99.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 99.6,
+      "end": 99.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 100.0,
+      "end": 101.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 107.2,
+      "end": 107.9983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 108.0,
+      "end": 109.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 109.6,
+      "end": 111.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 113.2,
+      "end": 113.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 113.6,
+      "end": 113.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 114.0,
+      "end": 114.0,
+      "duration": 0.0
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 114.0,
+      "end": 114.0,
+      "duration": 0.0
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 114.4,
+      "end": 114.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 114.8,
+      "end": 115.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 114.8,
+      "end": 115.9983,
+      "duration": 1.1983
+    },
+    {
+      "note": 55,
+      "freq_hz": 196.0,
+      "start": 115.2,
+      "end": 115.9983,
+      "duration": 0.7983
+    },
+    {
+      "note": 55,
+      "freq_hz": 196.0,
+      "start": 116.8,
+      "end": 117.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 117.2,
+      "end": 117.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 118.0,
+      "end": 119.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 119.6,
+      "end": 119.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 120.0,
+      "end": 120.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 120.4,
+      "end": 121.5983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 126.4,
+      "end": 127.1983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 127.2,
+      "end": 128.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 128.8,
+      "end": 130.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 132.8,
+      "end": 133.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 133.2,
+      "end": 133.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 134.0,
+      "end": 135.9983,
+      "duration": 1.9983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 136.0,
+      "end": 136.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 136.4,
+      "end": 136.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 137.2,
+      "end": 138.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 138.8,
+      "end": 139.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 139.2,
+      "end": 139.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 139.6,
+      "end": 140.3983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 140.4,
+      "end": 140.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 140.8,
+      "end": 141.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 141.2,
+      "end": 141.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 141.6,
+      "end": 143.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 144.0,
+      "end": 144.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 144.4,
+      "end": 144.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 144.8,
+      "end": 145.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 145.2,
+      "end": 145.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 145.6,
+      "end": 145.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 146.0,
+      "end": 146.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 146.4,
+      "end": 146.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 146.8,
+      "end": 147.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 147.2,
+      "end": 147.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 147.6,
+      "end": 147.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 148.0,
+      "end": 149.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 150.4,
+      "end": 150.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 150.8,
+      "end": 151.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 151.2,
+      "end": 151.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 151.6,
+      "end": 151.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 152.0,
+      "end": 152.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 152.4,
+      "end": 152.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 152.8,
+      "end": 153.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 153.2,
+      "end": 153.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 153.6,
+      "end": 153.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 154.0,
+      "end": 154.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 154.4,
+      "end": 155.5983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 155.6,
+      "end": 155.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 156.0,
+      "end": 156.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 156.4,
+      "end": 156.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 156.8,
+      "end": 157.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 157.2,
+      "end": 157.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 157.6,
+      "end": 159.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 159.6,
+      "end": 159.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 160.0,
+      "end": 160.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 160.4,
+      "end": 160.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 160.8,
+      "end": 162.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 162.8,
+      "end": 163.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 163.2,
+      "end": 163.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 163.6,
+      "end": 163.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 164.0,
+      "end": 164.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 164.4,
+      "end": 164.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 164.8,
+      "end": 165.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 165.2,
+      "end": 165.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 165.6,
+      "end": 165.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 166.0,
+      "end": 166.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 166.4,
+      "end": 166.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 166.8,
+      "end": 167.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 167.2,
+      "end": 168.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 169.6,
+      "end": 169.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 170.0,
+      "end": 170.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 170.4,
+      "end": 170.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 170.8,
+      "end": 171.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 171.2,
+      "end": 171.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 171.6,
+      "end": 171.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 172.0,
+      "end": 172.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 172.4,
+      "end": 172.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 172.8,
+      "end": 173.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 173.2,
+      "end": 173.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 173.6,
+      "end": 175.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 175.2,
+      "end": 175.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 175.6,
+      "end": 175.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 176.0,
+      "end": 176.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 176.4,
+      "end": 176.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 176.8,
+      "end": 178.3983,
+      "duration": 1.5983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 184.0,
+      "end": 184.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 184.4,
+      "end": 184.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 184.8,
+      "end": 185.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 185.2,
+      "end": 185.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 186.4,
+      "end": 187.1983,
+      "duration": 0.7983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 196.8,
+      "end": 197.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 197.2,
+      "end": 197.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 197.6,
+      "end": 197.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 198.0,
+      "end": 198.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 199.2,
+      "end": 199.9983,
+      "duration": 0.7983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 208.4,
+      "end": 208.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 208.8,
+      "end": 209.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 209.2,
+      "end": 209.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 209.6,
+      "end": 209.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 67,
+      "freq_hz": 392.0,
+      "start": 210.0,
+      "end": 210.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 210.4,
+      "end": 211.5983,
+      "duration": 1.1983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 211.6,
+      "end": 211.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 212.0,
+      "end": 212.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 212.4,
+      "end": 214.3983,
+      "duration": 1.9983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 221.2,
+      "end": 221.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 221.6,
+      "end": 221.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 222.0,
+      "end": 222.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 222.4,
+      "end": 222.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 67,
+      "freq_hz": 392.0,
+      "start": 222.8,
+      "end": 223.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 223.2,
+      "end": 223.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 223.6,
+      "end": 223.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 224.0,
+      "end": 225.065,
+      "duration": 1.065
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 225.0667,
+      "end": 226.1317,
+      "duration": 1.065
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 226.1333,
+      "end": 227.1983,
+      "duration": 1.065
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 227.2,
+      "end": 228.265,
+      "duration": 1.065
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 228.2667,
+      "end": 229.3317,
+      "duration": 1.065
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 229.3333,
+      "end": 230.3983,
+      "duration": 1.065
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 234.0,
+      "end": 234.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 234.4,
+      "end": 234.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 234.8,
+      "end": 235.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 235.2,
+      "end": 235.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 67,
+      "freq_hz": 392.0,
+      "start": 235.6,
+      "end": 235.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 236.0,
+      "end": 237.1983,
+      "duration": 1.1983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 237.2,
+      "end": 237.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 237.6,
+      "end": 237.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 238.0,
+      "end": 239.9983,
+      "duration": 1.9983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 246.8,
+      "end": 247.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 247.2,
+      "end": 247.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 247.6,
+      "end": 247.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 248.0,
+      "end": 248.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 67,
+      "freq_hz": 392.0,
+      "start": 248.4,
+      "end": 248.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 248.8,
+      "end": 249.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 249.2,
+      "end": 249.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 249.6,
+      "end": 250.665,
+      "duration": 1.065
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 250.6667,
+      "end": 251.7317,
+      "duration": 1.065
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 251.7333,
+      "end": 252.7983,
+      "duration": 1.065
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 252.8,
+      "end": 253.865,
+      "duration": 1.065
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 253.8667,
+      "end": 254.9317,
+      "duration": 1.065
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 254.9333,
+      "end": 255.9983,
+      "duration": 1.065
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 260.8,
+      "end": 261.5983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 261.6,
+      "end": 263.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 57,
+      "freq_hz": 220.0,
+      "start": 263.2,
+      "end": 264.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 267.2,
+      "end": 267.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 267.6,
+      "end": 267.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 268.4,
+      "end": 270.3983,
+      "duration": 1.9983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 270.4,
+      "end": 270.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 270.8,
+      "end": 271.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 271.6,
+      "end": 273.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 273.2,
+      "end": 273.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 273.6,
+      "end": 273.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 274.0,
+      "end": 274.7983,
+      "duration": 0.7983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 274.8,
+      "end": 275.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 275.2,
+      "end": 275.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 275.6,
+      "end": 275.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 276.0,
+      "end": 277.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 278.4,
+      "end": 278.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 278.8,
+      "end": 279.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 279.2,
+      "end": 279.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 279.6,
+      "end": 279.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 280.0,
+      "end": 280.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 280.4,
+      "end": 280.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 280.8,
+      "end": 281.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 281.2,
+      "end": 281.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 281.6,
+      "end": 281.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 282.0,
+      "end": 282.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 282.4,
+      "end": 283.9983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 284.8,
+      "end": 285.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 285.2,
+      "end": 285.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 285.6,
+      "end": 285.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 286.0,
+      "end": 286.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 286.4,
+      "end": 286.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 286.8,
+      "end": 287.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 287.2,
+      "end": 287.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 287.6,
+      "end": 287.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 288.0,
+      "end": 288.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 288.4,
+      "end": 288.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 288.8,
+      "end": 289.9983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 290.0,
+      "end": 290.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 290.4,
+      "end": 290.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 290.8,
+      "end": 291.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 291.2,
+      "end": 291.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 291.6,
+      "end": 291.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 292.0,
+      "end": 293.5983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 294.0,
+      "end": 294.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 294.4,
+      "end": 294.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 294.8,
+      "end": 295.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 295.2,
+      "end": 296.7983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 297.2,
+      "end": 297.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 297.6,
+      "end": 297.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 298.0,
+      "end": 298.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 298.4,
+      "end": 298.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 298.8,
+      "end": 299.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 299.2,
+      "end": 299.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 299.6,
+      "end": 299.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 300.0,
+      "end": 300.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 300.4,
+      "end": 300.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 300.8,
+      "end": 301.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 301.2,
+      "end": 301.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 301.6,
+      "end": 303.1983,
+      "duration": 1.5983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 304.0,
+      "end": 304.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 304.4,
+      "end": 304.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 64,
+      "freq_hz": 329.63,
+      "start": 304.8,
+      "end": 305.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 73,
+      "freq_hz": 554.37,
+      "start": 305.2,
+      "end": 305.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 71,
+      "freq_hz": 493.88,
+      "start": 305.6,
+      "end": 305.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 69,
+      "freq_hz": 440.0,
+      "start": 306.0,
+      "end": 306.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 66,
+      "freq_hz": 369.99,
+      "start": 306.4,
+      "end": 306.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 62,
+      "freq_hz": 293.66,
+      "start": 306.8,
+      "end": 307.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 307.2,
+      "end": 307.5983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 307.6,
+      "end": 307.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 308.0,
+      "end": 309.1983,
+      "duration": 1.1983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 309.6,
+      "end": 309.9983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 310.0,
+      "end": 310.3983,
+      "duration": 0.3983
+    },
+    {
+      "note": 59,
+      "freq_hz": 246.94,
+      "start": 310.4,
+      "end": 310.7983,
+      "duration": 0.3983
+    },
+    {
+      "note": 61,
+      "freq_hz": 277.18,
+      "start": 310.8,
+      "end": 311.1983,
+      "duration": 0.3983
+    },
+    {
+      "note": 58,
+      "freq_hz": 233.08,
+      "start": 311.2,
+      "end": 312.7983,
+      "duration": 1.5983
+    }
+  ]
+}

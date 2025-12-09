@@ -5,22 +5,37 @@ import { usePitchDetector } from "../hooks/usePitchTest";
 import MidiVisualizer from "../components/MidiVisualizer";
 import PitchMonitor from "../components/PitchMonitor";
 import SongPlayer from "../components/SongPlayer";
+import LyricsDisplay from "../components/LyricsDisplay";
+import type { LyricsData } from "../types/lyrics";
 
 
 import notesJson1 from "../data/miditufaltadequerer.mid_extracted.json";
 import notesJson2 from "../data/midiganzoesgei.mid_extracted.json";
+import notesJson3 from "../data/midiclairo-pretty-girl.mid_extracted.json";
+import notesJson4 from "../data/midirecently.mid_extracted.json";
+import notesJson5 from "../data/midistay-with-me-mayonaka-no-door-miki-matsubara.mid_extracted.json";
+
 import audioFile from "../assets/karaoke_moon.mp3";
 import audioFile2 from "../assets/el_violador.mp3";
+import audioFile3 from "../assets/karaoke_pretty_girl.mp3";
+import audioFile4 from "../assets/karaoke_liana.mp3";
+import audioFile5 from "../assets/karaoke_stay_with_me.mp3";
 
-const albumMap: Record<string, { audioFile: string; jsonFile: any }> = {
-  "1": { audioFile: audioFile, jsonFile: notesJson1 },
-  "2": { audioFile: audioFile2, jsonFile: notesJson2 },
-  "3": { audioFile: audioFile, jsonFile: notesJson1 },
-  "4": { audioFile: audioFile, jsonFile: notesJson2 },
-  "5": { audioFile: audioFile, jsonFile: notesJson1 },
-  "6": { audioFile: audioFile, jsonFile: notesJson2 },
-  "7": { audioFile: audioFile, jsonFile: notesJson1 },
-  "8": { audioFile: audioFile, jsonFile: notesJson2 },
+import lyrics1 from "../lyrics/tufaltadequerer.json";
+import lyrics2 from "../lyrics/ganzoesgei.json";
+import lyrics3 from "../lyrics/pretty-girl.json";
+import lyrics4 from "../lyrics/recently.json";
+import lyrics5 from "../lyrics/stay-with-me.json";
+
+const albumMap: Record<string, { audioFile: string; jsonFile: any; lyrics?: LyricsData }> = {
+  "1": { audioFile: audioFile, jsonFile: notesJson1, lyrics: lyrics1 as LyricsData },
+  "2": { audioFile: audioFile2, jsonFile: notesJson2, lyrics: lyrics2 as LyricsData },
+  "3": { audioFile: audioFile3, jsonFile: notesJson3, lyrics: lyrics3 as LyricsData },
+  "4": { audioFile: audioFile4, jsonFile: notesJson4, lyrics: lyrics4 as LyricsData },
+  "5": { audioFile: audioFile5, jsonFile: notesJson5, lyrics: lyrics5 as LyricsData },
+  "6": { audioFile: audioFile, jsonFile: notesJson2, lyrics: lyrics2 as LyricsData },
+  "7": { audioFile: audioFile, jsonFile: notesJson1, lyrics: lyrics1 as LyricsData },
+  "8": { audioFile: audioFile, jsonFile: notesJson2, lyrics: lyrics2 as LyricsData },
 };
 
 export default function KaraokePage() {
@@ -70,51 +85,13 @@ export default function KaraokePage() {
           playing={playing}
         />
         <MidiVisualizer notes={notes} currentTime={time} pitchHz={pitch} clarity={clarity} width={1060} height={340} />
-        <div className="mt-4 text-lg text-gray-100">
-          Hoy volví a dormir en nuestra cama
-          Y todo sigue igual
-          El aire y nuestros gatos, nada cambiará
-          Difícil olvidarte estando aquí, oh, oh, oh
-
-          Te quiero ver
-          Aún te amo, y creo que hasta más que ayer
-          La hiedra venenosa no te deja ver
-          Me siento mutilada y tan pequeña, ah, ah, ah
-
-          Ven y cuéntame la verdad
-          Ten piedad
-          Y dime por qué, no, no-no, oh
-
-          ¿Cómo fue que me dejaste de amar?
-          Yo aún podía soportar
-          Tu tanta falta de querer
-
-          Hace un mes solía escucharte
-          Y ser tu cómplice
-          Pensé que ya no había nadie más que tú
-          Yo fui tu amiga y fui tu compañera, ah, ah, ah
-
-          Ahora dormiré
-          Muy profundamente, para olvidar
-          Quisiera hasta la muerte, para no pensar
-          Me forro pa' quitarme esta amargura, ah, ah, ah
-
-          Ven y cuéntame la verdad
-          Ten piedad
-          Y dime por qué, no, no-no, oh
-
-          ¿Cómo fue que me dejaste de amar?
-          Yo aún podía soportar
-          Tu tanta falta de querer
-
-          Ven y cuéntame la verdad
-          Ten piedad
-          Y dime por qué, no, no-no, oh
-
-          ¿Cómo fue que me dejaste de amar?
-          Yo aún podía soportar
-          Tu tanta falta de querer
-        </div>
+        {selectedAlbum.lyrics && (
+          <LyricsDisplay
+            lyrics={selectedAlbum.lyrics}
+            currentTime={time}
+            playing={playing}
+          />
+        )}
       </div>
     </div>
   );

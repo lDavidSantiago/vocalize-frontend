@@ -1,0 +1,495 @@
+{
+  "title": "Stay With Me",
+  "lines": [
+    {
+      "text": "Mayonaka no doa o tataku",
+      "start": 4.2,
+      "end": 8.5
+    },
+    {
+      "text": "Watashi o okosanaide to",
+      "start": 8.6,
+      "end": 12.5
+    },
+    {
+      "text": "Tobari o nukete nozoku",
+      "start": 12.8,
+      "end": 16.0
+    },
+    {
+      "text": "Futari dake no sekai",
+      "start": 16.1,
+      "end": 19.5
+    },
+    {
+      "text": "",
+      "start": 19.5,
+      "end": 22.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 26.9,
+      "end": 30.0
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 30.0,
+      "end": 33.0
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 33.0,
+      "end": 36.5
+    },
+    {
+      "text": "",
+      "start": 36.5,
+      "end": 38.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 38.0,
+      "end": 41.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 41.5,
+      "end": 44.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 44.5,
+      "end": 48.0
+    },
+    {
+      "text": "",
+      "start": 48.0,
+      "end": 50.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 50.0,
+      "end": 54.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 54.0,
+      "end": 58.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 58.0,
+      "end": 61.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 61.5,
+      "end": 65.0
+    },
+    {
+      "text": "",
+      "start": 65.0,
+      "end": 67.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 67.0,
+      "end": 70.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 70.5,
+      "end": 73.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 73.5,
+      "end": 77.0
+    },
+    {
+      "text": "",
+      "start": 77.0,
+      "end": 79.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 79.0,
+      "end": 82.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 82.5,
+      "end": 85.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 85.5,
+      "end": 89.0
+    },
+    {
+      "text": "",
+      "start": 89.0,
+      "end": 91.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 91.0,
+      "end": 95.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 95.0,
+      "end": 99.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 99.0,
+      "end": 102.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 102.5,
+      "end": 106.0
+    },
+    {
+      "text": "",
+      "start": 106.0,
+      "end": 108.0
+    },
+    {
+      "text": "Mayonaka no doa o tataku",
+      "start": 108.0,
+      "end": 112.0
+    },
+    {
+      "text": "Watashi o okosanaide to",
+      "start": 112.0,
+      "end": 116.0
+    },
+    {
+      "text": "Tobari o nukete nozoku",
+      "start": 116.0,
+      "end": 119.5
+    },
+    {
+      "text": "Futari dake no sekai",
+      "start": 119.5,
+      "end": 123.0
+    },
+    {
+      "text": "",
+      "start": 123.0,
+      "end": 125.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 130.0,
+      "end": 133.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 133.5,
+      "end": 136.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 136.5,
+      "end": 140.0
+    },
+    {
+      "text": "",
+      "start": 140.0,
+      "end": 142.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 142.0,
+      "end": 145.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 145.5,
+      "end": 148.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 148.5,
+      "end": 152.0
+    },
+    {
+      "text": "",
+      "start": 152.0,
+      "end": 154.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 154.0,
+      "end": 158.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 158.0,
+      "end": 162.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 162.0,
+      "end": 165.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 165.5,
+      "end": 169.0
+    },
+    {
+      "text": "",
+      "start": 169.0,
+      "end": 171.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 171.0,
+      "end": 174.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 174.5,
+      "end": 177.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 177.5,
+      "end": 181.0
+    },
+    {
+      "text": "",
+      "start": 181.0,
+      "end": 183.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 183.0,
+      "end": 186.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 186.5,
+      "end": 189.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 189.5,
+      "end": 193.0
+    },
+    {
+      "text": "",
+      "start": 193.0,
+      "end": 195.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 195.0,
+      "end": 199.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 199.0,
+      "end": 203.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 203.0,
+      "end": 206.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 206.5,
+      "end": 210.0
+    },
+    {
+      "text": "",
+      "start": 210.0,
+      "end": 212.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 212.0,
+      "end": 215.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 215.5,
+      "end": 218.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 218.5,
+      "end": 222.0
+    },
+    {
+      "text": "",
+      "start": 222.0,
+      "end": 224.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 224.0,
+      "end": 227.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 227.5,
+      "end": 230.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 230.5,
+      "end": 234.0
+    },
+    {
+      "text": "",
+      "start": 234.0,
+      "end": 236.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 236.0,
+      "end": 240.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 240.0,
+      "end": 244.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 244.0,
+      "end": 247.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 247.5,
+      "end": 251.0
+    },
+    {
+      "text": "",
+      "start": 251.0,
+      "end": 253.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 253.0,
+      "end": 256.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 256.5,
+      "end": 259.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 259.5,
+      "end": 263.0
+    },
+    {
+      "text": "",
+      "start": 263.0,
+      "end": 265.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 265.0,
+      "end": 268.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 268.5,
+      "end": 271.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 271.5,
+      "end": 275.0
+    },
+    {
+      "text": "",
+      "start": 275.0,
+      "end": 277.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 277.0,
+      "end": 281.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 281.0,
+      "end": 285.0
+    },
+    {
+      "text": "Kono kimochi o",
+      "start": 285.0,
+      "end": 288.5
+    },
+    {
+      "text": "Wasurenaide",
+      "start": 288.5,
+      "end": 292.0
+    },
+    {
+      "text": "",
+      "start": 292.0,
+      "end": 294.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 294.0,
+      "end": 297.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 297.5,
+      "end": 300.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 300.5,
+      "end": 304.0
+    },
+    {
+      "text": "",
+      "start": 304.0,
+      "end": 306.0
+    },
+    {
+      "text": "Stay with me",
+      "start": 306.0,
+      "end": 309.5
+    },
+    {
+      "text": "Kono mayonaka o",
+      "start": 309.5,
+      "end": 312.5
+    },
+    {
+      "text": "Bokura de ikou",
+      "start": 312.5,
+      "end": 316.0
+    },
+    {
+      "text": "",
+      "start": 316.0,
+      "end": 318.0
+    },
+    {
+      "text": "Anata ga iru kara",
+      "start": 318.0,
+      "end": 322.0
+    },
+    {
+      "text": "Watashi wa watashi de ireru",
+      "start": 322.0,
+      "end": 322.8
+    }
+  ]
+}

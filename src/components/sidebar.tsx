@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Music, Star, Flame, TrendingUp, Shuffle, Music2, Mic2, Guitar, Drum, Radio } from "lucide-react";
 
-// ==================== CONTEXT ====================
+
 interface GenreContextType {
   selectedGenre: string;
   setSelectedGenre: (genre: string) => void;

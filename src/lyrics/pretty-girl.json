@@ -1,0 +1,40 @@
+{
+  "title": "Pretty Girl",
+  "artist": "Clairo",
+  "lines": [
+    { "text": "Polaroid you dancing in my room", "start": 4.0, "end": 6.0 },
+    { "text": "I want to remember", "start": 6.0, "end": 10.0 },
+    { "text": "I think it was about the moon", "start": 10.0, "end": 15.0 },
+    { "text": "It's getting harder to understand", "start": 15.0, "end": 21.0 },
+    { "text": "To understand", "start": 21.0, "end": 27.0 },
+    { "text": "How you felt in my hands", "start": 27.0, "end": 32.0 },
+    { "text": "In my hands", "start": 32.0, "end": 35.0 },
+
+    { "text": "I could be a pretty girl", "start": 35.0, "end": 41.0 },
+    { "text": "I wear a skirt for you", "start": 41.0, "end": 43.0 },
+    { "text": "And I could be a pretty girl", "start": 43.0, "end": 49.0 },
+    { "text": "Shut up when you want me to", "start": 49.0, "end": 52.0 },
+    { "text": "And I could be a pretty girl", "start": 52.0, "end": 58.0 },
+    { "text": "Never make you blue", "start": 58.0, "end": 61.0 },
+
+    { "text": "And I could be a pretty girl", "start": 61.0, "end": 67.0 },
+    { "text": "I lose myself in you", "start": 67.0, "end": 70.0 },
+
+    { "text": "I was so blinded by you", "start": 70.0, "end": 74.0 },
+    { "text": "Now I cry just thinking 'bout who I was", "start": 74.0, "end": 79.0 },
+    { "text": "I was such a fool", "start": 79.0, "end": 84.0 },
+    { "text": "I'm alone, oh no", "start": 84.0, "end": 87.0 },
+    { "text": "But it's better for me", "start": 87.0, "end": 92.0 },
+    { "text": "I don't need all your negativity", "start": 92.0, "end": 99.0 },
+
+    { "text": "I could be a pretty girl", "start": 99.0, "end": 105.0 },
+    { "text": "I'll wear a skirt for you", "start": 105.0, "end": 108.0 },
+    { "text": "And I could be a pretty girl", "start": 108.0, "end": 114.0 },
+    { "text": "Shut up when you want me to", "start": 114.0, "end": 116.0 },
+    { "text": "And I could be a pretty girl", "start": 116.0, "end": 122.0 },
+    { "text": "I'll never make you blue", "start": 122.0, "end": 124.0 },
+
+    { "text": "I could be a pretty girl", "start": 124.0, "end": 130.0 },
+    { "text": "I lose more than you", "start": 130.0, "end": 137.0 }
+  ]
+}

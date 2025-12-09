@@ -15,7 +15,6 @@
     "@clerk/types": "^4.101.5",
     "@supabase/supabase-js": "^2.84.0",
     "chart.js": "^4.5.1",
-    "clerk": "^0.6.1",
     "lucide-react": "^0.554.0",
     "pitchy": "^4.1.0",
     "react": "^19.2.0",
