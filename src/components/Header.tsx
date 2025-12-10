@@ -24,7 +24,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className="bg-[#0f0f15] sticky top-0 z-50 border-b border-gray-700">
+    <header
+      style={{ position: "fixed", top: 0, left: 0, right: 0,  height: "80px", zIndex: 9999, backgroundColor: "#0f0f15", borderBottom: "1px solid #3f3f46",}}
+    >
       <div style={{ width: '100%', maxWidth: '100vw', padding: '0px 16px', boxSizing: 'border-box' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
           

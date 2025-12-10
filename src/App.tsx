@@ -21,14 +21,22 @@ function AppContent() {
       
       {/* Layout con sidebar solo para páginas autenticadas */}
       {!isSignInPage ? (
-        <div className="min-h-screen bg-[#0f0f1a] text-white flex pt-20">
+        <div
+          style={{
+            minHeight: "100vh",
+            backgroundColor: "#0f0f1a",
+            color: "white",
+            display: "flex",
+            paddingTop: "70px" // altura del header
+          }}
+        >
           <SignedIn>
             {/* Sidebar de géneros */}
             <GenreSidebar />
           </SignedIn>
 
           {/* Contenido principal */}
-          <main className="flex-1 flex flex-col overflow-hidden">
+          <main className="flex-1 flex flex-col overflow-hidden ml-[200px]">
             <Routes>
               <Route
                 path="/"

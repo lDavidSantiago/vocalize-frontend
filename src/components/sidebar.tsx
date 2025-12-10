@@ -29,7 +29,6 @@ export function useGenre() {
   return context;
 }
 
-// ==================== SIDEBAR COMPONENT ====================
 interface Genre {
   id: string;
   name: string;
@@ -73,23 +72,36 @@ export default function GenreSidebar() {
   };
 
   return (
-    <aside className="w-56 bg-[#16161f] border-r border-gray-800/50 flex flex-col overflow-y-auto">
+    <aside 
+      className="w-[200px] bg-[#16161f] flex flex-col overflow-y-auto fixed left-0 top-20 bottom-0"
+      style={{ 
+        height: 'calc(100vh - 80px)',
+        overflowY: 'auto'
+      }}
+    >
       {/* Genre List */}
-      <nav className="flex-1 py-2">
+      <nav className="flex-1">
         {genres.map((genre) => (
           <button
             key={genre.id}
             onClick={() => handleGenreSelect(genre.id)}
-            className={`w-full px-4 py-3 flex items-center gap-3 transition-colors ${
+            style={{ 
+              paddingTop: '14px', 
+              paddingBottom: '14px',
+              marginBottom: '2px'
+            }}
+            className={`w-full px-4 flex items-center gap-3 transition-colors border-none ${
               selectedGenre === genre.id
-                ? "bg-purple-600/20 text-white border-r-2 border-purple-600"
-                : "text-gray-300 hover:bg-[#1a1a2e] hover:text-white"
+                ? "bg-[#0f0f15] border-r-2 border-purple-600"
+                : "bg-transparent hover:bg-[#0f0f15]"
             }`}
           >
-            <span className={selectedGenre === genre.id ? "text-purple-400" : "text-gray-400"}>
+            <span className={selectedGenre === genre.id ? "text-white" : "text-white"}>
               {genre.icon}
             </span>
-            <span className="text-sm font-light">{genre.name}</span>
+            <span className={`text-sm font-light ${selectedGenre === genre.id ? "text-white" : "text-white"}`}>
+              {genre.name}
+            </span>
           </button>
         ))}
       </nav>
