@@ -73,24 +73,30 @@ export default function GenreSidebar() {
 
   return (
     <aside 
-      className="w-[200px] bg-[#16161f] flex flex-col overflow-y-auto fixed left-0 top-20 bottom-0"
-      style={{ 
-        height: 'calc(100vh - 80px)',
-        overflowY: 'auto'
-      }}
+      className="w-[200px] bg-[#16161f] flex flex-col overflow-y-auto fixed left-0 top-20 md:top-24 bottom-0"
     >
+      {/* Clear Filters Button */}
+      {selectedGenre && (
+        <div className="p-4 border-b border-[#3f3f46]">
+          <button
+            onClick={() => {
+              setSelectedGenre("");
+              navigate("/home");
+            }}
+            className="w-full px-3 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium rounded-lg transition-colors"
+          >
+            Limpiar Filtros
+          </button>
+        </div>
+      )}
+
       {/* Genre List */}
       <nav className="flex-1">
         {genres.map((genre) => (
           <button
             key={genre.id}
             onClick={() => handleGenreSelect(genre.id)}
-            style={{ 
-              paddingTop: '14px', 
-              paddingBottom: '14px',
-              marginBottom: '2px'
-            }}
-            className={`w-full px-4 flex items-center gap-3 transition-colors border-none ${
+            className={`w-full px-4 py-3.5 mb-0.5 flex items-center gap-3 transition-colors border-none ${
               selectedGenre === genre.id
                 ? "bg-[#0f0f15] border-r-2 border-purple-600"
                 : "bg-transparent hover:bg-[#0f0f15]"

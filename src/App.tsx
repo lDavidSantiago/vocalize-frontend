@@ -3,40 +3,34 @@ import { SignedIn, SignedOut } from "@clerk/clerk-react";
 import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
 import KaraokePage from "./pages/KaraokePage";
+import ArtistasPage from "./pages/ArtistasPage";
+import ArtistDetailPage from "./pages/ArtistDetailPage";
 import Navbar from "./components/Header";
 import GenreSidebar, { GenreProvider } from "./components/sidebar";
-import { useState } from "react";
 
 
 function AppContent() {
   const location = useLocation();
   
-  // Verificar si estamos en la página de sign-in
+  // Verificar si estamos en la página de sign-in o karaoke
   const isSignInPage = location.pathname === "/sign-in";
+  const isKaraokePage = location.pathname === "/karaoke";
 
   return (
     <>
       {/* Header se muestra en todas las páginas */}
       <Navbar />
       
-      {/* Layout con sidebar solo para páginas autenticadas */}
+      {/* Layout con sidebar solo para páginas autenticadas (excepto karaoke) */}
       {!isSignInPage ? (
-        <div
-          style={{
-            minHeight: "100vh",
-            backgroundColor: "#0f0f1a",
-            color: "white",
-            display: "flex",
-            paddingTop: "70px" // altura del header
-          }}
-        >
+        <div className="min-h-screen bg-[#0f0f1a] text-white flex pt-20 md:pt-24">
           <SignedIn>
-            {/* Sidebar de géneros */}
-            <GenreSidebar />
+            {/* Sidebar de géneros - No se muestra en karaoke */}
+            {!isKaraokePage && <GenreSidebar />}
           </SignedIn>
 
           {/* Contenido principal */}
-          <main className="flex-1 flex flex-col overflow-hidden ml-[200px]">
+          <main className={`flex-1 flex flex-col overflow-hidden ${!isKaraokePage ? 'md:ml-[200px]' : ''}`}>
             <Routes>
               <Route
                 path="/"
@@ -88,6 +82,34 @@ function AppContent() {
                       <div className="flex-1 p-8">
                         <h1 className="text-2xl">Página de Género</h1>
                       </div>
+                    </SignedIn>
+                    <SignedOut>
+                      <Navigate to="/sign-in" replace />
+                    </SignedOut>
+                  </>
+                }
+              />
+
+              <Route
+                path="/artistas"
+                element={
+                  <>
+                    <SignedIn>
+                      <ArtistasPage />
+                    </SignedIn>
+                    <SignedOut>
+                      <Navigate to="/sign-in" replace />
+                    </SignedOut>
+                  </>
+                }
+              />
+
+              <Route
+                path="/artista/:artistId"
+                element={
+                  <>
+                    <SignedIn>
+                      <ArtistDetailPage />
                     </SignedIn>
                     <SignedOut>
                       <Navigate to="/sign-in" replace />

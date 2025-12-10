@@ -24,27 +24,25 @@ export default function Navbar() {
   };
 
   return (
-    <header
-      style={{ position: "fixed", top: 0, left: 0, right: 0,  height: "80px", zIndex: 9999, backgroundColor: "#0f0f15", borderBottom: "1px solid #3f3f46",}}
-    >
-      <div style={{ width: '100%', maxWidth: '100vw', padding: '0px 16px', boxSizing: 'border-box' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
+    <header className="fixed top-0 left-0 right-0 h-20 md:h-24 z-50 bg-[#0f0f15] border-b border-[#3f3f46]">
+      <div className="w-full max-w-screen px-3 md:px-4 h-full">
+        <div className="flex items-center justify-between gap-2 md:gap-4 h-full">
           
           {/* LEFT: LOGO */}
-          <div style={{ minWidth: '180px', flexShrink: 0 }}>
-            <Link to="/home" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <div className="shrink-0 flex items-center gap-2 md:gap-4">
+            <Link to="/home" className="flex items-center gap-2 md:gap-4">
               <Logo />
-              <h1 className="text-xl font-light tracking-wide text-white">Vocalize</h1>
+              <h1 className="text-lg md:text-2xl font-light tracking-wide text-white">Vocalize</h1>
             </Link>
           </div>
 
           {/* CENTER: NAV BUTTONS */}
           <SignedIn>
-            <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
-              <nav style={{ display: 'flex', alignItems: 'center', gap: '100px', fontSize: '20px' }}>
+            <div className="hidden md:flex flex-1 justify-center">
+              <nav className="flex items-center gap-12 md:gap-24 text-xl">
                 <Link
                   to="/home"
-                  className={`px-6 py-2 rounded-lg text-md transition font-medium ${
+                  className={`px-4 md:px-6 py-2 rounded-lg text-sm md:text-base transition font-medium ${
                     isActive("/home")
                       ? "bg-[#1a1a2e] text-white border border-purple-600"
                       : "text-white hover:text-white hover:bg-[#1a1a2e]"
@@ -52,20 +50,10 @@ export default function Navbar() {
                 >
                   Inicio
                 </Link>
-
-                <Link
-                  to="/genero"
-                  className={`px-6 py-2 rounded-lg text-sm transition font-medium ${
-                    isActive("/genero")
-                      ? "bg-[#1a1a2e] text-white border border-purple-600"
-                      : "text-white hover:text-white hover:bg-[#1a1a2e]"
-                  }`}
-                >
-                  Género
-                </Link>
+                
                  <Link
                   to="/artistas"
-                  className={`px-6 py-2 rounded-lg text-sm transition font-medium ${
+                  className={`px-4 md:px-6 py-2 rounded-lg text-sm transition font-medium ${
                     isActive("/artistas")
                       ? "bg-[#1a1a2e] text-white border border-purple-600"
                       : "text-white hover:text-white hover:bg-[#1a1a2e]"
@@ -76,12 +64,12 @@ export default function Navbar() {
               </nav>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', backgroundColor: '#1a1a2e', padding: '8px 12px', borderRadius: '8px', border: '2px solid white' }}>
-              <Search size={18} style={{ color: '#9ca3af', flexShrink: 0 }} />
+            <div className="hidden md:flex items-center gap-3 bg-[#1a1a2e] px-3 py-2 rounded-lg border-2 border-transparent hover:border-purple-600 transition">
+              <Search size={18} className="text-gray-400 shrink-0" />
               <input
                 type="text"
                 placeholder="Buscar..."
-                style={{ backgroundColor: 'transparent', fontSize: '14px', color: 'white', outline: 'none', width: '120px', border: 'none' }}
+                className="bg-transparent text-sm text-white outline-none w-32 border-none"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyDown={handleSearch}
@@ -90,12 +78,12 @@ export default function Navbar() {
           </SignedIn>
 
           {/* RIGHT: SEARCH + USER */}
-          <div style={{ minWidth: '30px', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '20px', flexShrink: 0 }}>
+          <div className="shrink-0 min-w-[30px] flex items-center justify-end gap-3 md:gap-5">
 
 
             {/* USER ICON */}
             <SignedIn>
-              <div style={{ flexShrink: 0 }}>
+              <div className="shrink-0">
                 <UserButton />
               </div>
             </SignedIn>

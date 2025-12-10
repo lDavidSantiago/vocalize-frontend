@@ -95,9 +95,6 @@ export default function LyricsDisplay({
                   ? "text-xl text-gray-500 opacity-40 transform scale-95"
                   : "text-xl text-gray-400 opacity-60 transform scale-100"
               }`}
-              style={{
-                transition: "all 0.5s ease-in-out",
-              }}
             >
               {line.text.trim() ? (
                 <div className="relative py-2">
@@ -114,14 +111,14 @@ export default function LyricsDisplay({
                   {isCurrent && playing && (
                     <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-1 bg-yellow-400/30 rounded-full overflow-hidden" style={{ width: '60%' }}>
                       <div 
-                        className="h-full bg-gradient-to-r from-yellow-400 via-yellow-300 to-transparent transition-all duration-100 rounded-full"
+                        className="h-full bg-linear-to-r from-yellow-400 via-yellow-300 to-transparent transition-all duration-100 rounded-full"
                         style={{ width: `${progress * 100}%` }}
                       />
                     </div>
                   )}
                   {/* Efecto de brillo sutil para la línea actual */}
                   {isCurrent && (
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-yellow-400/10 to-transparent blur-xl pointer-events-none" />
+                    <div className="absolute inset-0 bg-linear-to-r from-transparent via-yellow-400/10 to-transparent blur-xl pointer-events-none" />
                   )}
                 </div>
               ) : (

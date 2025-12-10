@@ -80,7 +80,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="flex-1 px-20 py-8 overflow-y-auto">
+    <div className="flex-1 px-4 md:px-20 py-8 overflow-y-auto">
       {/* Indicador de filtro activo */}
       {filteredAlbums.length === 0 ? (
         <div className="text-center text-gray-400 mt-20">
@@ -88,7 +88,7 @@ export default function HomePage() {
           <p className="text-sm">Intenta con otro filtro o búsqueda</p>
         </div>
       ) : (
-        <div className="grid grid-cols-4 gap-x-8 gap-y-10 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 max-w-7xl mx-auto">
           {filteredAlbums.map((album) => (
             <div 
               key={album.id} 
@@ -105,13 +105,13 @@ export default function HomePage() {
                 {/* Botón de play overlay */}
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <button 
-                    className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition-colors border border-white/20"
+                    className="w-12 md:w-16 h-12 md:h-16 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition-colors border border-white/20"
                     onClick={(e) => {
                       e.stopPropagation()
                       handleAlbumClick(album)
                     }}
                   >
-                    <Play className="w-7 h-7 text-white fill-white ml-1" />
+                    <Play className="w-5 md:w-7 h-5 md:h-7 text-white fill-white ml-1" />
                   </button>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function HomePage() {
               {/* Información del álbum */}
               <div className="bg-[#16161f] rounded-lg px-4 py-3 flex items-center gap-3">
                 <button 
-                  className="w-8 h-8 flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform"
+                  className="w-8 h-8 flex items-center justify-center shrink-0 hover:scale-110 transition-transform"
                   onClick={(e) => {
                     e.stopPropagation()
                     handleAlbumClick(album)
@@ -128,7 +128,7 @@ export default function HomePage() {
                   <Play className="w-4 h-4 text-white fill-white" />
                 </button>
                 <div className="flex-1 min-w-0">
-                  <p className="text-white text-sm font-light truncate uppercase tracking-wider">{album.title}</p>
+                  <p className="text-white text-xs md:text-sm font-light truncate uppercase tracking-wider">{album.title}</p>
                   <p className="text-gray-400 text-xs truncate font-light">{album.artist}</p>
                 </div>
               </div>
