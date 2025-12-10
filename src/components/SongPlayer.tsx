@@ -5,12 +5,14 @@ interface SongPlayerProps {
   src: string;
   onTimeChange?: (time: number) => void;
   onPlayingChange?: (playing: boolean) => void;
+  onEnded?: () => void;
 }
 
 export default function SongPlayer({
   src,
   onTimeChange,
   onPlayingChange,
+  onEnded,
 }: SongPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -25,9 +27,19 @@ export default function SongPlayer({
       onTimeChange?.(audio.currentTime);
     };
 
+    const handleEnded = () => {
+      setIsPlaying(false);
+      onPlayingChange?.(false);
+      onEnded?.();
+    };
+
     audio.addEventListener("timeupdate", handleTimeUpdate);
-    return () => audio.removeEventListener("timeupdate", handleTimeUpdate);
-  }, [onTimeChange]);
+    audio.addEventListener("ended", handleEnded);
+    return () => {
+      audio.removeEventListener("timeupdate", handleTimeUpdate);
+      audio.removeEventListener("ended", handleEnded);
+    };
+  }, [onTimeChange, onPlayingChange, onEnded]);
 
   const play = () => {
     const audio = audioRef.current;

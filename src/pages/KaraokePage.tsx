@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { usePitchDetector } from "../hooks/usePitchTest";
+import { useSessionNoteRecorder } from "../hooks/useSessionNoteRecorder";
 import MidiVisualizer from "../components/MidiVisualizer";
 import PitchMonitor from "../components/PitchMonitor";
 import SongPlayer from "../components/SongPlayer";
@@ -45,6 +46,10 @@ export default function KaraokePage() {
   const [time, setTime] = useState(0);
   const [expectedPitch, setExpectedPitch] = useState(0);
   const { pitch, clarity } = usePitchDetector(playing);
+  const { startSession, stopSession, record, exportNotes, clearNotes, notes: sessionNotes } = useSessionNoteRecorder({ minClarity: 0.7, minIntervalMs: 80 });
+  const [isReviewing, setIsReviewing] = useState(false);
+  const [reviewResult, setReviewResult] = useState<{ score: number; summary?: string; motivation?: string } | null>(null);
+  const REVIEW_URL = import.meta.env.VITE_REVIEW_URL ?? "http://localhost:5174/api/review";
 
   const selectedAlbum = albumMap[albumId] || albumMap["1"];
   const notes = selectedAlbum.jsonFile.notes as Array<{ note: number; freq_hz: number; start: number; end: number; duration: number }>;
@@ -66,6 +71,61 @@ export default function KaraokePage() {
     }
   }, [time, pitch, playing, notes]);
 
+
+  useEffect(() => {
+    if (playing) {
+      startSession();
+    } else {
+      stopSession();
+    }
+  }, [playing, startSession, stopSession]);
+
+
+  useEffect(() => {
+    if (!playing) return;
+    if (!pitch || clarity <= 0) return;
+    record(pitch, clarity, time);
+  }, [pitch, clarity, time, playing, record]);
+
+
+  async function handleSongEnd() {
+
+    stopSession();
+    setIsReviewing(true);
+    setReviewResult(null);
+
+    try {
+      const payload = {
+        sessionNotes: sessionNotes,
+        referenceNotes: notes,
+        meta: { albumId, audioFile: selectedAlbum.audioFile },
+      };
+
+      const resp = await fetch(REVIEW_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!resp.ok) throw new Error(`Review failed: ${resp.status}`);
+
+      const body = await resp.json();
+
+      setReviewResult({
+        score: body.score ?? 0,
+        summary: body.summary ?? body.message ?? "",
+        motivation: body.motivation ?? body.motivacion ?? "",
+      });
+
+      setTimeout(() => setIsReviewing(false), 400);
+    } catch (err: any) {
+      setReviewResult({ score: 0, summary: err?.message ?? String(err) });
+    } finally {
+
+      if (!reviewResult) setIsReviewing(false);
+    }
+  }
+
   return (
     <div className="w-full min-h-screen bg-[#0f0f15] text-white font-sans flex items-center justify-center">
       <div className="w-full max-w-[1100px] p-5">
@@ -73,11 +133,52 @@ export default function KaraokePage() {
           src={selectedAlbum.audioFile}
           onTimeChange={setTime}
           onPlayingChange={setPlaying}
+          onEnded={handleSongEnd}
         />
         <div className="mb-2 text-gray-200 text-sm text-right">
           Pitch: {pitch.toFixed(1)} Hz · Expected Pitch:{" "}
           {expectedPitch.toFixed(1)} Hz · Claridad: {(clarity * 100).toFixed(0)}%
         </div>
+        <div className="mb-4 text-right">
+          <button
+            className="mr-2 px-3 py-1 bg-indigo-600 rounded text-sm"
+            onClick={() => exportNotes()}
+          >
+            Exportar notas de sesión ({sessionNotes.length})
+          </button>
+          <button
+            className="px-3 py-1 bg-gray-700 rounded text-sm"
+            onClick={() => clearNotes()}
+          >
+            Limpiar
+          </button>
+        </div>
+        {isReviewing && (
+          <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-40">
+            <div className="bg-[#0f1724] p-6 rounded shadow-lg text-center w-[520px]">
+              <div className="mb-3 text-white">Analizando tu canto — por favor espera...</div>
+              <div className="h-8 w-8 border-4 border-t-indigo-500 rounded-full animate-spin mx-auto mb-4" />
+              <div className="text-sm text-gray-300">Esto suele tardar menos de 10s.</div>
+            </div>
+          </div>
+        )}
+
+        {reviewResult && (
+          <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+            <div className="bg-[#071029] p-8 rounded shadow-xl max-w-[720px] w-full text-center">
+              <h2 className="text-2xl font-bold text-white mb-4">Puntuación</h2>
+              <div className="text-6xl font-extrabold text-indigo-400 mb-4">{Math.round(reviewResult.score)}</div>
+              {reviewResult.summary && <div className="text-sm text-gray-200 mb-4">{reviewResult.summary}</div>}
+              {reviewResult.motivation && (
+                <div className="text-sm text-indigo-200 italic mb-6">"{reviewResult.motivation}"</div>
+              )}
+              <div className="flex justify-center gap-3">
+                <button className="px-4 py-2 bg-indigo-600 rounded" onClick={() => { setReviewResult(null); }}>Cerrar</button>
+                <button className="px-4 py-2 bg-gray-700 rounded" onClick={() => { exportNotes(); setReviewResult(null); }}>Descargar notas</button>
+              </div>
+            </div>
+          </div>
+        )}
         <PitchMonitor
           pitch={pitch}
           currentTime={time}
